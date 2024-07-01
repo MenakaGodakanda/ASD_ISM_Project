@@ -41,11 +41,26 @@ cd ASD_ISM_Project
 ```
 
 ### Install Required Tools:
-Run `install_tools.sh` to install Nmap and Lynis.
+1. Run `install_tools.sh` to install Nmap and Lynis.
 ```
 chmod +x tools/install_tools.sh
-sudo ./scripts/install_tools.sh
+sudo ./tools/install_tools.sh
 ```
+The output should look like this:<br>
+![Screenshot 2024-07-02 012205](https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/5afe0565-88c9-44de-a595-953073cea940)
+
+2. Verify Tools
+- Verify Nmap installation:
+  ```
+  nmap --version
+  ```
+  ![Screenshot 2024-07-02 012317](https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/a4419b6d-2f30-43c0-8d15-28f9c298a633)
+
+- Verify Lynis installation:<br>
+  ```
+  lynis --version
+  ```
+  ![Screenshot 2024-07-02 012323](https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/c24ecb81-740c-4dca-a390-bb7b24de7350)
 
 ## Usage
 
@@ -58,7 +73,9 @@ sudo ./scripts/vulnerability_scan.sh
 ```
 
 2. Output:
-The results will be saved to reports/vulnerability_report.txt.
+- The results will be saved to reports/vulnerability_report.txt.
+- The output should look like this:<br><br>
+![Screenshot 2024-07-02 012425](https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/6144066b-3fe3-4a3d-90c5-1b7b058bdf0c)
 
 ### Compliance Checking
 
@@ -69,7 +86,9 @@ sudo ./scripts/compliance_check.sh
 ```
 
 2. Output:
-The results will be saved to reports/compliance_report.txt.
+- The results will be saved to reports/compliance_report.txt.
+- The output should look like this:<br><br>
+![Screenshot 2024-07-02 012533](https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/ca6998ac-e79f-45df-89ac-fc395ae89439)
 
 ## ASD ISM Compliance
 
