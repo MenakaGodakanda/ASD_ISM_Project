@@ -5,17 +5,17 @@ This project conducts a cybersecurity assessment in line with the Australian Sig
 ## Features
 
 1. **Comprehensive Vulnerability Scanning**:
-The project includes a script that performs detailed vulnerability scanning of the system using `Nmap`. It identifies open ports, running services, and their versions, helping to detect potential security vulnerabilities. Generates a detailed report (vulnerability_report.txt) highlighting the discovered vulnerabilities.
+The project includes a script that performs detailed vulnerability scanning of the system using `Nmap`. It identifies open ports, running services, and their versions, helping to detect potential security vulnerabilities. Generates a detailed report (`vulnerability_report.txt`) highlighting the discovered vulnerabilities.
 
 2. **Automated Compliance Checking**:
-The project features an automated compliance check script that uses Lynis to audit the system's security posture. It checks for compliance with various security benchmarks and provides recommendations for improvement. Produces a compliance report (compliance_report.txt) detailing the system's adherence to security standards and suggesting hardening measures.
+The project features an automated compliance check script that uses Lynis to audit the system's security posture. It checks for compliance with various security benchmarks and provides recommendations for improvement. Produces a compliance report (`compliance_report.txt`) detailing the system's adherence to security standards and suggesting hardening measures.
 
 3. **Easy Installation of Required Tools**:
 An installation script (`install_tools.sh`) is provided to automatically install the necessary open-source tools (Nmap and Lynis). This ensures a quick setup and consistent environment for running the project.
 
 4. **Structured Project Directory**:
 The project directory is organized into scripts and reports folders, making it easy to navigate and understand the workflow.
-    - Scripts: Contains all necessary scripts (install_tools.sh, vulnerability_scan.sh, compliance_check.sh).
+    - Scripts: Contains all necessary scripts (`install_tools.sh`, `vulnerability_scan.sh`, `compliance_check.sh`).
     - Reports: Stores the generated output reports, ensuring that results are saved and accessible.
 
 5. **Detailed Documentation**:
