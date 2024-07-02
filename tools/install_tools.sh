@@ -1,4 +1,12 @@
 #!/bin/bash
-# Update package list and install tools
+
+# Update the package list
 sudo apt update
-sudo apt install -y nmap lynis
+
+# Install Nmap
+sudo apt install -y nmap
+
+# Install Lynis
+sudo apt install -y lynis
+
+echo "Installation of tools is complete."
