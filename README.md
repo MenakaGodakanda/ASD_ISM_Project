@@ -1,6 +1,7 @@
 # ASD ISM Cybersecurity Project
 
-This project conducts a cybersecurity assessment in line with the Australian Signals Directorate (ASD) Information Security Manual (ISM). The assessment includes vulnerability scanning and compliance checks using open-source tools on Ubuntu.
+This project conducts a cybersecurity assessment in line with the Australian Signals Directorate (ASD) Information Security Manual (ISM). The assessment includes vulnerability scanning and compliance checks using open-source tools on Ubuntu.<br>
+<a href="https://github.com/MenakaGodakanda/ASD_ISM_Project/blob/main/Project_Description.md">Project Description</a>
 
 ## Project Structure
 ```
