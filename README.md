@@ -3,21 +3,6 @@
 This project conducts a cybersecurity assessment in line with the Australian Signals Directorate (ASD) Information Security Manual (ISM). The assessment includes vulnerability scanning and compliance checks using open-source tools on Ubuntu.<br>
 <a href="https://github.com/MenakaGodakanda/ASD_ISM_Project/blob/main/Project_Description.md">Project Description</a>
 
-## Project Structure
-```
-ASD_ISM_Project/
-├── scripts/                        # Contains scripts for various tasks.
-│   ├── install_tools.sh
-│   ├── vulnerability_scan.sh
-│   └── compliance_check.sh
-├── reports/                        # Generated reports from the scans and checks.
-│   ├── vulnerability_report.txt
-│   └── compliance_report.txt
-└── tools                           # Scripts to install necessary tools.
-│   └── install_tools.sh
-└── README.md
-```
-
 ## Overview 
 
 <img width="1144" alt="Screenshot 2024-07-02 at 2 02 20 AM" src="https://github.com/MenakaGodakanda/ASD_ISM_Project/assets/156875412/ca5e0d3f-af84-4f24-b8ff-8ebd7c865713">
@@ -101,6 +86,21 @@ The project adheres to several key controls outlined in the ASD ISM:
   - System hardening and compliance checking using Lynis.
 - **Access Control**: Ensuring only authorized users can execute scripts.
 - **Monitoring and Auditing**: Regular checks and detailed reporting of system security status.
+
+## Project Structure
+```
+ASD_ISM_Project/
+├── scripts/                        # Contains scripts for various tasks.
+│   ├── install_tools.sh
+│   ├── vulnerability_scan.sh
+│   └── compliance_check.sh
+├── reports/                        # Generated reports from the scans and checks.
+│   ├── vulnerability_report.txt
+│   └── compliance_report.txt
+└── tools                           # Scripts to install necessary tools.
+│   └── install_tools.sh
+└── README.md
+```
 
 ## License
 
